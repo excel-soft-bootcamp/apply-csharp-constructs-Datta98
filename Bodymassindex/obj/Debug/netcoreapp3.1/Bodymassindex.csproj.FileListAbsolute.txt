@@ -1,4 +1,0 @@
-C:\Users\shridatta.r\Documents\Visual Studio 2019\Bootcamp Practice\csharp essentials\Bodymassindex\obj\Debug\netcoreapp3.1\Bodymassindex.csproj.AssemblyReference.cache
-C:\Users\shridatta.r\Documents\Visual Studio 2019\Bootcamp Practice\csharp essentials\Bodymassindex\obj\Debug\netcoreapp3.1\Bodymassindex.AssemblyInfoInputs.cache
-C:\Users\shridatta.r\Documents\Visual Studio 2019\Bootcamp Practice\csharp essentials\Bodymassindex\obj\Debug\netcoreapp3.1\Bodymassindex.AssemblyInfo.cs
-C:\Users\shridatta.r\Documents\Visual Studio 2019\Bootcamp Practice\csharp essentials\Bodymassindex\obj\Debug\netcoreapp3.1\Bodymassindex.csproj.CoreCompileInputs.cache
