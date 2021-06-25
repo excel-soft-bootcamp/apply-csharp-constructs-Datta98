@@ -13,8 +13,8 @@ namespace BodyMassIndexApplication
             BmiCalculator bmi = new BmiCalculator(height, weight);
             double result = bmi.BmiCalculation();
 
-            ResultDisplay result = new ResultDisplay(result);
-            result.Display();
+            ResultDisplay bmiresult = new ResultDisplay(result);
+            bmiresult.Display();
 
         }
     }
