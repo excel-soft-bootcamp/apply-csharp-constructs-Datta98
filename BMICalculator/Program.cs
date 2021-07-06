@@ -10,7 +10,7 @@ namespace BMICalculator
 
 
             BMIValueCalculationLib.CalculateBMI value = new BMIValueCalculationLib.CalculateBMI();
-            double BmiValue = value.BmiCalculation(userInputs.UserHeight(), userInputs.UserWeight());
+            double BmiValue = value.BmiCalculation(userInputs.GetUserHeight(), userInputs.GetUserWeight());
 
             BMIValueValidationLib.BmiValueValidation validate = new BMIValueValidationLib.BmiValueValidation();
             string message = validate.CheckBmiValue(BmiValue);
