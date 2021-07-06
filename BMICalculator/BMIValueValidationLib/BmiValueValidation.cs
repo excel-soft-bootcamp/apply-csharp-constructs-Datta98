@@ -4,7 +4,7 @@ namespace BMIValueValidationLib
 {
     public class BmiValueValidation
     {
-        public string CheckCondition(double BMIValue)
+        public string CheckBmiValue(double BMIValue)
         {
             if (BMIValue < 18.5)
             {
