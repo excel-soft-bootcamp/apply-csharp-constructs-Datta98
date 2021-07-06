@@ -9,7 +9,7 @@ namespace BMICalculator
             BMIUserInputLib.ConsoleInputReader userInputs = new BMIUserInputLib.ConsoleInputReader();
 
 
-            BMIValueCalculationLib.BmiValueCalculation value = new BMIValueCalculationLib.BmiValueCalculation();
+            BMIValueCalculationLib.CalculateBMI value = new BMIValueCalculationLib.CalculateBMI();
             double BmiValue = value.BmiCalculation(userInputs.UserHeight(), userInputs.UserWeight());
 
             BMIValueValidationLib.BmiValueValidation validate = new BMIValueValidationLib.BmiValueValidation();
