@@ -4,7 +4,7 @@ namespace BMIResultDisplayLib
 {
     public class MessageDisplay
     {
-       public void Display(string message)
+       public void ConsoleDisplay(string message)
         {
 
             Console.WriteLine(message);
