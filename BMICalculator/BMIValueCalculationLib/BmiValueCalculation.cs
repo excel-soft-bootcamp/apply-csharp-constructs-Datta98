@@ -7,7 +7,7 @@ namespace BMIValueCalculationLib
 
         public double BmiCalculation(double height, double weight)
         {
-            bmivalue = weight / height;
+            double bmivalue = weight / height;
             return bmivalue;
         }
 
