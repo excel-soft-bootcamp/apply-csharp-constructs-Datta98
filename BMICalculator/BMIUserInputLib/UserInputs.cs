@@ -4,13 +4,13 @@ namespace BMIUserInputLib
 {
     public class ConsoleInputReader
     {
-        public int GetUserHeight()
+        public double GetUserHeight()
         {
              double height = Convert.ToDouble(this.ReadFromConsole("Enter your height in meter:"));
             return height;
         }
 
-        public int GetUserWeight()
+        public double GetUserWeight()
         {
              double weight = Convert.ToDouble(this.ReadFromConsole("Enter your weight in kg:"));
             return weight;
