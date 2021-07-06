@@ -2,7 +2,7 @@
 
 namespace BMIValueCalculationLib
 {
-    public class BmiValueCalculation
+    public class CalculateBMI
     {
 
         private double bmivalue;
