@@ -16,7 +16,7 @@ namespace BMICalculator
             string message = validate.CheckBmiValue(BmiValue);
 
             BMIResultDisplayLib.MessageDisplay result = new BMIResultDisplayLib.MessageDisplay();
-            result.Display(message);
+            result.ConsoleDisplay(message);
             Console.ReadKey();
 
         }
