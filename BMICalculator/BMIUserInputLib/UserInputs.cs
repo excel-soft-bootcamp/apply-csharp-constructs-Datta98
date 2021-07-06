@@ -4,25 +4,22 @@ namespace BMIUserInputLib
 {
     public class ConsoleInputReader
     {
-        public double GetUserHeight()
+        public int GetUserHeight()
         {
-            double height = Convert.ToDouble(this.ReadFromConsole("Enter your height in meter:"));
+            ConsoleDisplayLib.ConsoleDisplayType.ConsoleDisplay("Enter your height in meter:");
+            string heightInMeter = Console.ReadLine();
+            int height = int.Parse(heightInMeter);
             return height;
         }
 
-        public double GetUserWeight()
+        public int GetUserWeight()
         {
-            double weight = Convert.ToDouble(this.ReadFromConsole("Enter your weight in kg:"));
+            ConsoleDisplayLib.ConsoleDisplayType.ConsoleDisplay("Enter your weight in KG:");
+            string weightInKG = Console.ReadLine();
+            int weight = int.Parse(weightInKG);
             return weight;
         }
-        private string ReadFromConsole(string message)
-        {
-
-            Console.WriteLine(message);
-            string input = Console.ReadLine();
-            return input;
-        }
-
+       
 
     }
 }
