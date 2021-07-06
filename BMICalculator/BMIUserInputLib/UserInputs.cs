@@ -8,7 +8,7 @@ namespace BMIUserInputLib
         {
              ConsoleDisplayLib.ConsoleDisplayType.ConsoleDisplay("Enter your height in meter");
             string heightInMeter = Console.ReadLine();
-            int height = int.Parse(heightInMeter);
+            double height = double.Parse(heightInMeter);
             return height;
         }
 
@@ -16,7 +16,7 @@ namespace BMIUserInputLib
         {
              ConsoleDisplayLib.ConsoleDisplayType.ConsoleDisplay("Enter your weight in KG");
             string weightInKG = Console.ReadLine();
-            int weight = int.Parse(weightInKG);
+            double weight = double.Parse(weightInKG);
             return weight; ;
     }   
         
