@@ -6,20 +6,20 @@ namespace BMIUserInputLib
     {
         public int GetUserHeight()
         {
-            ConsoleDisplayLib.ConsoleDisplayType.ConsoleDisplay("Enter your height in meter:");
-            string heightInMeter = Console.ReadLine();
-            int height = int.Parse(heightInMeter);
+             double height = Convert.ToDouble(this.ReadFromConsole("Enter your height in meter:"));
             return height;
         }
 
         public int GetUserWeight()
         {
-            ConsoleDisplayLib.ConsoleDisplayType.ConsoleDisplay("Enter your weight in KG:");
-            string weightInKG = Console.ReadLine();
-            int weight = int.Parse(weightInKG);
+             double weight = Convert.ToDouble(this.ReadFromConsole("Enter your weight in kg:"));
             return weight;
-        }
-       
+    }   
+         private string ReadFromConsole(string message)
+        {
 
-    }
+            Console.WriteLine(message);
+            string input = Console.ReadLine();
+            return input;
+        }
 }
