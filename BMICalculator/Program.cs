@@ -6,14 +6,14 @@ namespace BMICalculator
     {
         static void Main(string[] args)
         {
-            BMIUserInputLib.UserInputs userInputs = new BMIUserInputLib.UserInputs();
+            BMIUserInputLib.ConsoleInputReader userInputs = new BMIUserInputLib.ConsoleInputReader();
 
 
             BMIValueCalculationLib.BmiValueCalculation value = new BMIValueCalculationLib.BmiValueCalculation();
-            double BmiValue = value.calculator(userInputs.UserHeight(), userInputs.UserWeight());
+            double BmiValue = value.BmiCalculation(userInputs.UserHeight(), userInputs.UserWeight());
 
             BMIValueValidationLib.BmiValueValidation validate = new BMIValueValidationLib.BmiValueValidation();
-            string message = validate.CheckCondition(BmiValue);
+            string message = validate.CheckBmiValue(BmiValue);
 
             BMIResultDisplayLib.MessageDisplay result = new BMIResultDisplayLib.MessageDisplay();
             result.Display(message);
